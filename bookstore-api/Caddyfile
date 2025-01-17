@@ -1,0 +1,7 @@
+bookstore-api.vasujain.me {
+    reverse_proxy bookstore_api:8069
+
+    tls {
+        on_demand
+    }
+}
