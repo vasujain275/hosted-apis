@@ -1,0 +1,8 @@
+studentsync-api.vasujain.me {
+    reverse_proxy api:8080
+
+    log {
+        output file /var/log/caddy/access.log
+        format json
+    }
+}
